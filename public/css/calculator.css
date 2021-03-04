@@ -1,0 +1,42 @@
+#result {
+    height: 20px;
+    width: 180px;
+    padding: 3%;
+    border: 2px solid #dadce0;
+    border-radius: 6px;
+    text-align: right;
+}
+#button-equal {
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+.number {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border: 2px solid #f1f3f4;
+    border-radius: 6px;
+    background-color: #f1f3f4;
+}
+.number:hover {
+    background-color: #ececec;
+}
+.number:focus {
+    outline-color: #c1c1c1;
+}
+
+.operator, .clear, .equal {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border: 2px solid #dadce0;
+    border-radius: 6px;
+    background-color: #dadce0;
+}
+.operator:hover, .clear:hover, .equal:hover{
+    background-color: #c7c9cc;
+}
+.operator:focus{
+    outline-color: #c1c1c1;
+}
